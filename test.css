@@ -1,0 +1,167 @@
+*{ /* данные параметры будут применены ко всему проекту */
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+	list-style: none;
+	text-decoration: none;
+}
+body { /* стили для body */
+	height: 100.1vh;
+    /* background-color: whitesmoke; */
+}
+
+.sizes{
+	margin: 20px 0 29px;
+}
+.choose-size-icon{
+	margin: 0px 24px 0px;
+}
+.size-selected__list{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+}
+
+.btn-select{
+	font-size: 15px;
+    padding: 15px 45.42px;
+	border: 1px solid black;
+	outline: none;
+    cursor: pointer;
+	margin-right: 40.26px;
+	background: white;
+
+	color: #000000;
+
+	transition: .3s ease;
+}
+.btn-select:hover{
+	color: #cecece;
+}
+.btn-select--active{
+	background: rgb(0, 0, 0);
+
+	color: #ffffff;
+}
+
+.buttoms{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	/* border: 1px solid #000; */
+	
+	opacity: 1;
+
+	transition: .7s ease 1.45s;
+}
+
+.btn{
+    font-size: 20px;
+	color: #000000;
+	border: none;
+	outline: none;
+    cursor: pointer;
+    transition: .6s;
+	padding: 11.5px 158.2px;
+	background: rgb(255, 255, 255);
+	margin: 0;
+
+	transition: .3s ease;
+}
+.btn:hover{
+    color: #cecece;
+}
+
+/* .buttons{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+}
+
+.btn-S{
+	font-size: 15px;
+    padding: 15px 45.42px;
+	border: 1px solid black;
+	outline: none;
+    cursor: pointer;
+	background: white;
+
+	color: #000000;
+
+	transition: .3s ease;
+}
+.btn-S:hover{
+	color: #cecece
+}
+
+.btn-S-anim{
+	opacity: 0;
+	transform: translate(0%, 30%);
+	transition: .7s ease 1s;
+}
+	.btn-S-anim._active{
+		opacity: 1;
+		transform: translate(0%, 0%);
+	}
+
+.btn-L{
+	font-size: 15px;
+    background: #ffffff;
+    padding: 15px 45px;
+	border: 1px solid black;
+	outline: none;
+    cursor: pointer;
+	background: white;
+	margin: 0 40.26px 0;
+
+	color: #000000;
+
+	transition: .3s ease;
+}
+.btn-L:hover{
+	color: #cecece
+}
+
+.btn-L-anim{
+	opacity: 0;
+	transform: translate(0%, 30%);
+	transition: .7s ease 1.1s;
+}
+	.btn-L-anim._active{
+		opacity: 1;
+		transform: translate(0%, 0%);
+	}
+
+.btn-XXL{
+	font-size: 15px;
+    background: #ffffff;
+    padding: 15px 34.18px;
+	border: 1px solid black;
+	outline: none;
+    cursor: pointer;
+	background: white;
+
+	color: #000000;
+
+	transition: .3s ease;
+}
+.btn-XXL:hover{
+	color: #cecece
+}
+
+.btn-XXL-anim{
+	opacity: 0;
+	transform: translate(0%, 30%);
+	transition: .7s ease 1.2s;
+}
+	.btn-XXL-anim._active{
+		opacity: 1;
+		transform: translate(0%, 0%);
+	} */
